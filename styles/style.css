@@ -18,7 +18,7 @@ body {
 /* Shared styles */
 section {
     width: 90%;
-    margin: auto;
+    margin: 0px auto 50px auto;
 }
 h1 {
     color: var(--dark-1);
@@ -103,6 +103,20 @@ header nav .navItems ul li a {
     border: 1px solid #F1E4FF;
     padding: 5%;
 }
+/* Brands section */
+.brands {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    border-top: 1px solid #e02c6e11;
+    border-bottom: 1px solid #e02c6e11;
+    padding: 30px;
+    flex-wrap: wrap;
+}
+.brands img {
+    width: 84px;
+}
 
 
 
@@ -123,10 +137,18 @@ header nav .navItems ul li a {
     header nav .navLogo button {
         display: block;
     }
+    header nav .navItems{
+        width: 100%;
+    }
     header nav .navItems ul {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 30px;
+        width: 100%;
+        background-color: #e02c6e11;
+        padding: 20px;
+        border-radius: 10px;
     }
     header nav {
         flex-direction: column;
