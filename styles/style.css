@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+:root {
+    --primary-color : #E02C6D;
+    --dark-1 : #3A3A3A;
+    --dark-2 : #787885;
+}
+
+/* Shared styles */
+section {
+    width: 90%;
+    margin: auto;
+}
+
+
+/* header */
+
+header nav .navLogo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+    color: var(--dark-1);
+}
+header nav .navLogo button {
+    background: none;
+    border: none;
+    color: var(--dark-1);
+    display: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header nav .navItems ul {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 50px;
+    list-style-type: none;
+}
+header nav .navItems ul li a {
+    text-decoration: none;
+    color: var(--dark-1);
+}
+
+
+
+/* Tablet */
+
+@media screen and (max-width:768px) {
+    /* Shared styles */
+    .showItems {
+        display: block;
+    }
+    header nav .hide {
+        display: none;
+    }
+    
+    header nav .navLogo{
+        width: 100%;
+    }
+    header nav .navLogo button {
+        display: block;
+    }
+    header nav .navItems ul {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    header nav {
+        flex-direction: column;
+    }
+
+}
+
+/* Mobile */
+@media screen and (max-width:576px) {
+    
+}
