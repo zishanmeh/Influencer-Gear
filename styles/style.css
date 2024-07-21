@@ -20,6 +20,26 @@ section {
     width: 90%;
     margin: auto;
 }
+h1 {
+    color: var(--dark-1);
+}
+p {
+    font-size: 0.95rem;
+}
+.primary-btn {
+    background-color: var(--primary-color);
+    padding: 10px 15px;
+    border-radius: 8px;
+    border: none;
+}
+button {
+    cursor: pointer;
+}
+button a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.95rem;
+}
 
 
 /* header */
@@ -56,6 +76,34 @@ header nav .navItems ul li a {
     color: var(--dark-1);
 }
 
+/* Hero section*/
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+.hero-details {
+    width: 50%;
+} 
+.hero-details h1 {
+    font-size: 3rem;
+}
+.hero-details p {
+    color: var(--dark-1);
+    font-weight: bold;
+    margin: 20px 0;
+}
+.hero-details button i {
+    margin-left: 5px;
+}
+.hero-img img {
+    width: 90%;
+    border-radius: 50%;
+    border: 1px solid #F1E4FF;
+    padding: 5%;
+}
+
 
 
 /* Tablet */
@@ -88,5 +136,14 @@ header nav .navItems ul li a {
 
 /* Mobile */
 @media screen and (max-width:576px) {
-    
+    .hero {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+    }
+    .hero-details {
+        width: 100%;
+    }
+    .hero-details h1{
+        font-size: 2rem;
+    }
 }
