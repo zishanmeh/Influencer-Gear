@@ -163,6 +163,21 @@ header nav .navItems ul li a {
 .see-more-products a i {
     margin-left: 5px;
 }
+/* Featured products */
+.featured-products {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+.featured-products-details p {
+    margin: 20px 0px;
+    font-weight: bold;
+    color: var(--dark-2);
+}
+.featured-products-img img {
+    width: 100%;
+}
 
 
 
@@ -202,6 +217,10 @@ header nav .navItems ul li a {
     /* Popular products */
     .popular-products {
         grid-template-columns: repeat(2,1fr);
+    }
+    /* Featured products */
+    .featured-products {
+        flex-direction: column;
     }
 
 }
