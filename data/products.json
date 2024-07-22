@@ -1,0 +1,74 @@
+[
+    {
+        "id" : 1,
+        "title" : "Flex Tripod",
+        "price" : 50.48,
+        "rating" : 4.99,
+        "description" : "Wordwide available Buyers protection possible!",
+        "url" : "./images/products/tripod.png"
+    },
+    {
+        "id" : 2,
+        "title" : "Microphone",
+        "price" : 120.25,
+        "rating" : 4.99,
+        "description" : "Wordwide available Buyers protection possible!",
+        "url" : "./images/products/microphone.png"
+    },
+    {
+        "id" : 3,
+        "title" : "Airbuds",
+        "price" : 100.00,
+        "rating" : 4.99,
+        "description" : "Wordwide available Buyers protection possible!",
+        "url" : "./images/products/airpod.png"
+    },
+    {
+        "id" : 4,
+        "title" : "Drone",
+        "price" : 980.25,
+        "rating" : 4.99,
+        "description" : "Wordwide available Buyers protection possible!",
+        "url" : "./images/products/drone.png"
+    },
+    {
+        "id" : 5,
+        "title" : "Light Setup",
+        "price" : 1200.00,
+        "rating" : 4.99,
+        "description" : "Wordwide available Buyers protection possible!",
+        "url" : "./images/products/lights.png"
+    },
+    {
+        "id" : 6,
+        "title" : "Photoshoot set",
+        "price" : 820.40,
+        "rating" : 4.99,
+        "description" : "Wordwide available Buyers protection possible!",
+        "url" : "./images/products/setup.png"
+    },
+    {
+        "id" : 7,
+        "title" : "Vlogging Camera",
+        "price" : 1800.80,
+        "rating" : 4.99,
+        "description" : "Wordwide available Buyers protection possible!",
+        "url" : "./images/products/camera.png"
+    },
+    {
+        "id" : 8,
+        "title" : "Green Screen",
+        "price" : 25.48,
+        "rating" : 4.99,
+        "description" : "Wordwide available Buyers protection possible!",
+        "url" : "./images/products/green-screen.png"
+    },
+    {
+        "id" : 9,
+        "title" : "Action Camera",
+        "price" : 380.00,
+        "rating" : 4.99,
+        "description" : "Wordwide available Buyers protection possible!",
+        "url" : "./images/products/action.png"
+    }
+]

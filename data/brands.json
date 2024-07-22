@@ -1,37 +1,37 @@
 [
     {
         "id" : 1,
-        "brands-name" : "Alibaba",
+        "name" : "Alibaba",
         "url" : "./logos/Alibaba.svg"
     },
     {
         "id" : 2,
-        "brands-name" : "Amazon",
+        "name" : "Amazon",
         "url" : "./logos/Amazon.svg"
     },
     {
         "id" : 3,
-        "brands-name" : "Daraz",
+        "name" : "Daraz",
         "url" : "./logos/Daraz.pk Logo.svg"
     },
     {
         "id" : 4,
-        "brands-name" : "Ebay",
+        "name" : "Ebay",
         "url" : "./logos/Ebay.svg"
     },
     {
         "id" : 5,
-        "brands-name" : "Rakuten",
+        "name" : "Rakuten",
         "url" : "./logos/Rakuten.svg"
     },
     {
         "id" : 6,
-        "brands-name" : "Walmart",
+        "name" : "Walmart",
         "url" : "./logos/Walmart.svg"
     },
     {
         "id" : 7,
-        "brands-name" : "Target",
+        "name" : "Target",
         "url" : "./logos/Target.svg"
     }
 ]
